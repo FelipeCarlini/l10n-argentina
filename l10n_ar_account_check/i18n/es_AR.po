@@ -1188,6 +1188,7 @@ msgstr "Orden de Pago"
 #: model_terms:ir.ui.view,arch_db:l10n_ar_account_check.account_check_deposit_form_view
 #: model_terms:ir.ui.view,arch_db:l10n_ar_account_check.check_reject_form_view
 #: model_terms:ir.ui.view,arch_db:l10n_ar_account_check.wizard_create_check_view_form
+#: model:ir.ui.view,arch_db:l10n_ar_account_check.account_check_deposit_form_view
 msgid "or"
 msgstr "o"
 
@@ -1227,6 +1228,7 @@ msgstr ""
 "pago es mayor que la Fecha de Depósito."
 
 #. module: l10n_ar_account_check
+<<<<<<< HEAD
 #: code:addons/l10n_ar_account_check/models/account_check.py:218
 #, python-format
 msgid "Check %s can't be accredited!"
@@ -1459,3 +1461,25 @@ msgstr ""
 #, python-format
 msgid "Check Rejected %s %s"
 msgstr "Cheque Rechazado %s %s"
+
+#. module: l10n_ar_account_check
+#: model:ir.model.fields,field_description:l10n_ar_account_check.field_account_issued_check_is_electronic
+#: model:ir.model.fields,field_description:l10n_ar_account_check.field_account_third_check_is_electronic
+msgid "Electronic Check"
+msgstr "Cheque electrónico"
+
+#. module: l10n_ar_account_check
+#: model:ir.ui.menu,name:l10n_ar_account_check.menu_electronic_issued_check
+#: model:ir.ui.menu,name:l10n_ar_account_check.menu_electronic_third_check
+msgid "Electronic Checks"
+msgstr "Cheques Electrónicos"
+
+#. module: l10n_ar_account_check
+#: model:ir.actions.act_window,name:l10n_ar_account_check.action_issued_electronic_check
+msgid "Electronic Issued Checks"
+msgstr "Cheques emitidos electrónicos"
+
+#. module: l10n_ar_account_check
+#: model:ir.actions.act_window,name:l10n_ar_account_check.action_third_electronic_check
+msgid "Electronic Third Checks"
+msgstr "Cheques de terceros electrónicos"
