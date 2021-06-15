@@ -1228,7 +1228,6 @@ msgstr ""
 "pago es mayor que la Fecha de Depósito."
 
 #. module: l10n_ar_account_check
-<<<<<<< HEAD
 #: code:addons/l10n_ar_account_check/models/account_check.py:218
 #, python-format
 msgid "Check %s can't be accredited!"
